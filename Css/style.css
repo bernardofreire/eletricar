@@ -54,7 +54,7 @@ header nav.right{
     inset: 0;
     background-color: rgba(0, 0, 0, .35);
     backdrop-filter: blur(5px);
-    transition: opacity .5s;
+    transition: opacity .6s;
 }
 
 .backdrop.active{
