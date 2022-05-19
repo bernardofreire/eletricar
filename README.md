@@ -9,5 +9,4 @@ Segue algumas fotos e vídeos de como está o estudo:
 
 ![carprojeto2](https://user-images.githubusercontent.com/81259484/169202790-d14405b1-1a75-4741-979c-b89db6d110d7.png)
 
-https://user-images.githubusercontent.com/81259484/169202561-44969224-7d3c-48dc-8d8e-f5ed96e6b1a6.mp4
-
+![2022-05-19-00-02-07](https://user-images.githubusercontent.com/81259484/169203127-1bf983ad-5c32-4757-b5ec-e182f16d7be5.gif)
