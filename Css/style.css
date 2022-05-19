@@ -13,7 +13,8 @@ html{
 body{
     list-style: none;
     color: #171a20;
-font-family: 'Gotham', sans-serif;  
+    font-family: 'Gotham', sans-serif;  
+    overflow: overlay;
 }
 
 /* Logo */
@@ -191,6 +192,19 @@ section .buttons a:first-child{
     color: #fff;
 }
 
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    background: transparent;
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb{
+    background: #444;
+    border-radius: 10px;
+}
   
 
 @media (min-width: 768px) {
