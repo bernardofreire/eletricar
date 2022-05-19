@@ -6,23 +6,58 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     list-style: none;
     color: #171a20;
 font-family: 'Gotham', sans-serif;  
 }
 
+/* Logo */
+
+.logo{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* Menu Central */
+
+.center a{
+    border-radius: .7rem;
+    transition: all .2s ease-in;
+    padding: 8px 13px;
+}
+
+
+.center a:hover{
+    background-color: rgba(252, 252, 252, 0.24);    
+}
+
+/* Botao Menu direita */
+
+.menuBtn{
+    border-radius: .7rem;
+    transition: all .3s ease;
+}
+
+.menuBtn:hover{
+    background-color: rgba(252, 252, 252, 0.384);    
+}
+
+/* Header */
 
 header{
     display: grid;
     grid-template-columns: auto 1fr auto;
-    padding: 10px 20px;
+    padding: 20px 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
 }
-
 
 
 header a{
@@ -46,19 +81,18 @@ header nav.right{
     display: none;
 }
 
-/* Backdrop */
+/* Backdrop (Blur)*/
 
 .backdrop{
-    opacity: 0;
+    display: none; 
     position: fixed ;
     inset: 0;
     background-color: rgba(0, 0, 0, .35);
-    backdrop-filter: blur(5px);
-    transition: opacity .6s;
+    backdrop-filter: blur(5px);    
 }
 
 .backdrop.active{
-    opacity: 100;
+    display: block;    
 }
 
 /* Sidebar */
@@ -70,7 +104,7 @@ aside{
     height: 100vh;
     z-index: 4;
     background-color: white;
-    padding: 6rem 2rem;
+    padding: 2rem 2rem;
     transition: right .5s ease;
 }
 
@@ -85,12 +119,12 @@ aside a{
     padding: .5rem .7rem;
     font-weight: 400;
     margin-top: .5rem;
-    
+    border-radius: .7rem;
+    transition: all .4s ease;
 }
 
 aside a:hover{
     background-color: #eee;
-    border-radius: .7rem;
 }
 
 aside button.close{
@@ -129,14 +163,14 @@ section h1{
 }
 
 section a{
-    color: inh;
+    color: inherit;
 }
 
 section .buttons a{
     display: block;
     background-color: #eee;
     color: inherit;
-    padding: 12px 50px;
+    padding: 14px 70px;
     border-radius: 25px;
     text-decoration: none;
     text-transform: uppercase;
@@ -150,11 +184,14 @@ section .buttons{
     margin: 0 40px;
 }
 
+
+
 section .buttons a:first-child{
     background-color: #444;
     color: #fff;
 }
 
+  
 
 @media (min-width: 768px) {
 
@@ -168,7 +205,10 @@ section .buttons a:first-child{
 
     }
 
+
+    
 }
+
 
 @media (min-width: 1200px) {
     .desktop{
@@ -177,3 +217,4 @@ section .buttons a:first-child{
 
 
 }
+

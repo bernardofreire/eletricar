@@ -1,8 +1,8 @@
-const abrirMenu = () =>{
+const openMenu = () =>{
     document.querySelector('.backdrop').className = 'backdrop active'
    document.querySelector('aside').className = 'active'
 }
-const fecharMenu = () =>{
+const closeMenu = () =>{
     document.querySelector('.backdrop').className = 'backdrop'
     document.querySelector('aside').className = ''
 
@@ -10,14 +10,14 @@ const fecharMenu = () =>{
 
 document.getElementById('menuBtn').onclick = e =>{
     e.preventDefault()
-    abrirMenu()
+    openMenu()
 }
 
 
 document.querySelector('aside button.close').onclick = e =>{
-    fecharMenu()
+    closeMenu()
 }
 
 document.querySelector('.backdrop').onclick = e =>{
-    fecharMenu()
+    closeMenu()
 }
