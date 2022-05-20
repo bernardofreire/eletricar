@@ -217,13 +217,7 @@ section .buttons a:first-child{
         margin: 0 auto;
         grid-template-columns: 1fr 1fr;
         column-gap:  20px;
-
-    }
-
-    
-
-
-    
+    }    
 }
 
 
@@ -231,8 +225,6 @@ section .buttons a:first-child{
     .desktop{
         display: initial;
     }
-
-
 }
 
 
