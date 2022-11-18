@@ -2,7 +2,7 @@
 
 Link para visualizar o projeto: https://bernardofreire.github.io/eletricar/
 
-Olá, é um prazer estar aqui compartilhando meu primeiro projeto no Linkedin de Front usando HTML, CSS e Javascript! E para isso me baseei no site da Tesla para botar em prática o que venho estudando nesses meses.
+Olá, é um prazer estar aqui compartilhando meu projeto de Front usando HTML, CSS e Javascript! E para isso me baseei no site da Tesla para botar em prática o que venho estudando nesses meses.
 
 Segue algumas fotos e vídeos de como está o estudo:
 ![carprojet](https://user-images.githubusercontent.com/81259484/169202783-f08b6632-5bdc-4342-9f51-5c6293b6e3a1.png)
